@@ -1,0 +1,16 @@
+Name: opus
+URL: https://git.xiph.org/?p=opus.git;a=snapshot;h=ed08a3b0ba736d007c1a87b9c5c077b01170e7be;sf=tgz
+Version: ed08a3b0ba736d007c1a87b9c5c077b01170e7be
+License: BSD
+License File: src/COPYING
+Security Critical: yes
+
+Description:
+This directory contains a copy of Opus library
+
+This library is used by Chrome Remote Desktop and WebRTC for audio stream
+encoding/decoding.
+
+Local changes:
+* copy .gitignore from https://git.xiph.org/?p=opus.git;a=tree
+* set 'x' flags: "chmod 750 win32/genversion.bat"
